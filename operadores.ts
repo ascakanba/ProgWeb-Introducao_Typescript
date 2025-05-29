@@ -16,3 +16,6 @@ console.log("AND", x&& y);
 console.log("NOT", !x);
 console.log("OR", x || y);
 
+//operador condicional(terminario)
+let idade: number = 17;
+let acesso = idade >= 18 ? 'Pode beijar na boca' : 'Nao pode'; // condicao ? valor se true : valor se false
